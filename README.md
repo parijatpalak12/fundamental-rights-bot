@@ -68,7 +68,7 @@ You can try asking the chatbot questions such as:
 
 ```bash
 # Clone the repository
-git clone https://github.com/parijatpalak12/NayayaBot.git
+git clone https://github.com/parijatpalak12/fundamental-rights-bot.git
 cd NayayaBot
 
 # Install dependencies
