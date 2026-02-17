@@ -74,4 +74,28 @@ cd NayayaBot
 # Install dependencies
 pip install -r requirements.txt
 
+---
+
+## 🌐 Deploy on Hugging Face
+
+You can easily deploy this chatbot on Hugging Face Spaces.
+
+### Steps to Deploy:
+
+1. Go to https://huggingface.co/spaces and create a new Space.
+2. Select **Gradio** as the SDK.
+3. Upload the following files:
+   - `app.py`
+   - `requirements.txt`
+   - `part3.pdf` (or any PDF you want to use)
+4. Click **Create Space**.
+
+Hugging Face will automatically install dependencies and run `app.py`.
+
+Once deployed, your chatbot will be accessible through a public link.
+
+### 📌 Note:
+Users can replace `part3.pdf` with their own PDF file to customize the chatbot for different documents.
+
+
 
